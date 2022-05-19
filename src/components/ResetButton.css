@@ -1,0 +1,45 @@
+.reset-btn {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: rgb(0, 119, 255);
+}
+@media screen and  (max-width:550px){
+  .reset-btn {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 22px;
+    padding:10px 22px;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+@media screen and  (max-width:400px){
+  .reset-btn {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size:18px;
+    padding:10px 20px;
+    margin: 1rem auto;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+  }
+}

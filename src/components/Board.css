@@ -1,0 +1,15 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 7rem);
+  place-items: center;
+  justify-content: center;
+}
+
+@media screen and  (max-width:400px){
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    place-items: center;
+    justify-content: center;
+  }
+}
